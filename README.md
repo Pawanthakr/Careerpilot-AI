@@ -7,18 +7,21 @@ The platform uses AI to analyze uploaded resumes, compare candidate skills with 
 ## ✨ Key Features
 
 ### 🔐 1. Authentication & Authorization
+
 - User registration and login.
 - JWT-based authentication.
 - Secure password hashing using bcrypt.
 - Protected routes and user-specific data access.
 
 ### 📄 2. Resume Management
+
 - Upload resumes in PDF format.
 - Extract resume content automatically.
 - Store and manage uploaded resumes.
 - View and delete previously uploaded resumes.
 
 ### 🎯 3. AI-Powered Job Description Analysis
+
 - Enter or paste a job description.
 - Extract required technical and soft skills.
 - Compare resume skills with job requirements.
@@ -27,6 +30,7 @@ The platform uses AI to analyze uploaded resumes, compare candidate skills with 
 - Provide personalized skill improvement suggestions.
 
 ### 🤖 4. AI Interview Preparation
+
 - Generate technical interview questions.
 - Generate HR interview questions.
 - Create role-specific interview questions.
@@ -34,6 +38,7 @@ The platform uses AI to analyze uploaded resumes, compare candidate skills with 
 - Customize questions according to experience and difficulty level.
 
 ### 📝 5. ATS Resume Optimization
+
 - Analyze resume content.
 - Identify missing job-related keywords.
 - Improve professional summaries.
@@ -42,6 +47,7 @@ The platform uses AI to analyze uploaded resumes, compare candidate skills with 
 - Download optimized resumes as PDF.
 
 ### 🎤 6. AI Mock Interview
+
 - Conduct interactive mock interviews.
 - Answer questions one by one.
 - Evaluate candidate responses using AI.
@@ -49,6 +55,7 @@ The platform uses AI to analyze uploaded resumes, compare candidate skills with 
 - Receive feedback and improvement suggestions.
 
 ### 📊 7. User Dashboard
+
 - Manage uploaded resumes.
 - View job analysis reports.
 - Track interview performance.
@@ -59,22 +66,22 @@ The platform uses AI to analyze uploaded resumes, compare candidate skills with 
 
 ## 🛠️ Tech Stack
 
-| Technology | Purpose |
-|---|---|
-| React.js | Frontend development |
-| Tailwind CSS | UI styling |
-| Node.js | Backend runtime |
-| Express.js | REST API development |
-| MongoDB | Database |
-| Mongoose | Database modeling |
-| JWT | Authentication |
-| bcrypt | Password hashing |
-| Gemini AI API | AI-powered features |
-| Multer | Resume file uploads |
-| PDF Parser | Resume text extraction |
-| Puppeteer | PDF generation |
-| Postman | API testing |
-| Git & GitHub | Version control |
+| Technology    | Purpose                |
+| ------------- | ---------------------- |
+| React.js      | Frontend development   |
+| Tailwind CSS  | UI styling             |
+| Node.js       | Backend runtime        |
+| Express.js    | REST API development   |
+| MongoDB       | Database               |
+| Mongoose      | Database modeling      |
+| JWT           | Authentication         |
+| bcrypt        | Password hashing       |
+| Gemini AI API | AI-powered features    |
+| Multer        | Resume file uploads    |
+| PDF Parser    | Resume text extraction |
+| Puppeteer     | PDF generation         |
+| Postman       | API testing            |
+| Git & GitHub  | Version control        |
 
 ---
 
@@ -218,22 +225,22 @@ http://localhost:5173
 
 ## 🔗 API Endpoints
 
-| Method | Endpoint | Description |
-|---|---|---|
-| POST | `/api/auth/register` | Register user |
-| POST | `/api/auth/login` | Login user |
-| GET | `/api/auth/me` | Get current user |
-| POST | `/api/resume/upload` | Upload resume |
-| GET | `/api/resume` | Get user resumes |
-| DELETE | `/api/resume/:id` | Delete resume |
-| POST | `/api/jobs/analyze` | Analyze job description |
-| POST | `/api/ai/questions` | Generate interview questions |
-| POST | `/api/ai/answers/evaluate` | Evaluate interview answers |
-| POST | `/api/resume/optimize` | Optimize resume |
-| POST | `/api/resume/generate-pdf` | Generate PDF resume |
-| POST | `/api/interview/start` | Start mock interview |
-| POST | `/api/interview/answer` | Submit interview answer |
-| GET | `/api/interview/history` | Get interview history |
+| Method | Endpoint                   | Description                  |
+| ------ | -------------------------- | ---------------------------- |
+| POST   | `/api/auth/register`       | Register user                |
+| POST   | `/api/auth/login`          | Login user                   |
+| GET    | `/api/auth/me`             | Get current user             |
+| POST   | `/api/resume/upload`       | Upload resume                |
+| GET    | `/api/resume`              | Get user resumes             |
+| DELETE | `/api/resume/:id`          | Delete resume                |
+| POST   | `/api/jobs/analyze`        | Analyze job description      |
+| POST   | `/api/ai/questions`        | Generate interview questions |
+| POST   | `/api/ai/answers/evaluate` | Evaluate interview answers   |
+| POST   | `/api/resume/optimize`     | Optimize resume              |
+| POST   | `/api/resume/generate-pdf` | Generate PDF resume          |
+| POST   | `/api/interview/start`     | Start mock interview         |
+| POST   | `/api/interview/answer`    | Submit interview answer      |
+| GET    | `/api/interview/history`   | Get interview history        |
 
 ---
 
@@ -277,8 +284,8 @@ It aims to provide candidates with personalized insights and practical preparati
 
 **Pawan Thakre**
 
-- GitHub: [Add your GitHub profile]
-- LinkedIn: [Add your LinkedIn profile]
+- GitHub: [Pawanthakr]
+- LinkedIn: [PawanThakre]
 
 ---
 
